@@ -9,8 +9,6 @@ I have knologements at: Java, Python, HTML, CSS, JS, nodeJS and GO:Lang
 
 ===================ABOUT MY PROJECTS=========================
 
-Currently i didn't put no one because i will create some specifics projects to put here.
-
 To contact me you can use my personal e-mail: guilhermelossio@hotmail.com
 
 
