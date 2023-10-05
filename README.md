@@ -1,11 +1,14 @@
 ===================ABOUT ME==================================
 
-Hello, I'm Guilherme Ferreira Medeiros Lossio and i am a backending programmer.
-Currently my focus are Java and Python but if i need i will be able to learn any codding language.
-At the moment i'm on college in the last year and i work with python in a software developper companny.
+Hello, I'm Guilherme Ferreira Medeiros Lossio.
+I'm graduated in Game Development, and i'm a game programmer.
+I also have some skills on web development.
+Currently i'm doing a second graduation on a course of Computer Engenaring.
 ===================KNOLOGEMENTS==============================
 
-I have knologements at: Java, Python, HTML, CSS, JS, nodeJS and GO:Lang 
+My focused knologements at: C#, Unity, .Net, C++ on Unreal engine.  
+
+I also have knologements at: Python, HTML, CSS, JS, nodeJS and Web development, using Aps.net.
 
 ===================ABOUT MY PROJECTS=========================
 
