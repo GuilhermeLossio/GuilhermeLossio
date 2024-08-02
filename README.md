@@ -1,26 +1,27 @@
-===================ABOUT ME==================================
+# I'm Guilherme  Lossio
 
-Hello, I'm Guilherme Ferreira Medeiros Lossio.
-I'm graduated in Game Development, and i'm a game programmer.
-I also have some skills on web development.
-Currently i'm doing a second graduation on a course of Computer Engenaring.
-===================KNOLOGEMENTS==============================
+A mid level Game Programmer
 
-My focused knologements at: C#, Unity, .Net, C++ on Unreal engine.  
+<div align="center">
+  <a href="https://github.com/devguilherme">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=devguilherme&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devguilherme&layout=compact&langs_count=7&theme=dark"/>
+  </a>
+</div>
 
-I also have knologements at: Python, HTML, CSS, JS, nodeJS and Web development, using Aps.net.
-
-===================ABOUT MY PROJECTS=========================
-
-To contact me you can use my personal e-mail: guilhermelossio@hotmail.com
-
+## Most used Tecnologys
 
 <div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" title="Flutter" alt="Flutter" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/unity/unity-original.svg" title="Unity" alt="Unity" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C#" alt="C#" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/unrealengine/unrealengine-original.svg" title="Unreal Engine" alt="Unreal Engine" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>
 </div>
+
+## Contact
+
+You can find me by this e-mail:
+- **Email**: guilhermelossio@hotmail.com
+
+---
