@@ -5,13 +5,13 @@ A mid level Game Programmer
 <table>
   <tr>
     <td>
-      <a href="https://github.com/devguilherme">
-        <img height="150em" src="https://github-readme-stats.vercel.app/api?username=devguilherme&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+      <a href="https://github.com/GuilhermeLossio">
+        <img height="150em" src="https://github-readme-stats.vercel.app/api?username=GuilhermeLossio&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
       </a>
     </td>
     <td>
-      <a href="https://github.com/devguilherme">
-        <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devguilherme&layout=compact&langs_count=7&theme=dark"/>
+      <a href="https://github.com/GuilhermeLossio">
+        <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermeLossio&layout=compact&langs_count=7&theme=dark"/>
       </a>
     </td>
   </tr>
