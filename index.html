@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Guilherme Lossio | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Guilherme Lossio, Senior ML Engineer focused on production AI systems, MLOps, and cloud infrastructure."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg"></div>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="logo">GL</div>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#stack">Stack</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="btn ghost" href="#contact">Let's talk</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Senior ML Engineer | AI Systems</p>
+            <h1>
+              Building production-grade AI with clean architecture,
+              observability, and real-world impact.
+            </h1>
+            <p class="lead">
+              7+ years in software engineering, 4+ years in production AI.
+              Experience across audio and CV pipelines, MLOps, cloud-native
+              systems, Edge AI, and robust APIs.
+            </p>
+            <div class="hero-cta">
+              <a class="btn primary" href="#projects">View projects</a>
+              <a class="btn ghost" href="#stack">View stack</a>
+            </div>
+            <div class="stat-row">
+              <div class="stat">
+                <span class="stat-value">20%+</span>
+                <span class="stat-label">Latency reduction</span>
+              </div>
+              <div class="stat">
+                <span class="stat-value">20k+</span>
+                <span class="stat-label">Voice lines shipped</span>
+              </div>
+              <div class="stat">
+                <span class="stat-value">AWS + GCP</span>
+                <span class="stat-label">Cloud infrastructure</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="panel-card">
+              <h3>Current focus</h3>
+              <ul>
+                <li>Agentic AI and RAG pipelines with OpenAI and Gemini</li>
+                <li>Cloud infrastructure for ML at scale</li>
+                <li>Hybrid quantum-classical architectures</li>
+              </ul>
+            </div>
+            <div class="panel-card glass">
+              <h3>Differentiators</h3>
+              <ul>
+                <li>End-to-end AI pipelines in production</li>
+                <li>Optimized for latency, cost, and reliability</li>
+                <li>Observability and reproducibility by design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div>
+            <h2>About</h2>
+            <p>
+              Specialist in turning research into production-ready AI systems.
+              Hands-on experience with TTS, computer vision, data pipelines, and
+              backend services, with a focus on clean engineering and measurable
+              results.
+            </p>
+          </div>
+          <div class="highlight-card">
+            <h3>What I deliver</h3>
+            <div class="chips">
+              <span>ML architecture</span>
+              <span>Observability</span>
+              <span>MLOps</span>
+              <span>Cloud-native</span>
+              <span>Edge AI</span>
+              <span>APIs</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Project highlights</h2>
+            <p>
+              Curated selection of projects that showcase impact, architecture,
+              and outcomes.
+            </p>
+          </div>
+
+          <div class="tabs" role="tablist" aria-label="Project categories">
+            <button
+              class="tab-btn active"
+              type="button"
+              id="tab-btn-featured"
+              role="tab"
+              aria-selected="true"
+              aria-controls="tab-featured"
+              data-tab="featured"
+            >
+              Featured
+            </button>
+            <button
+              class="tab-btn"
+              type="button"
+              id="tab-btn-fiap"
+              role="tab"
+              aria-selected="false"
+              aria-controls="tab-fiap"
+              data-tab="fiap"
+            >
+              FIAP Projects
+            </button>
+          </div>
+
+          <div class="tab-panels">
+            <div
+              id="tab-featured"
+              class="tab-panel active"
+              role="tabpanel"
+              aria-labelledby="tab-btn-featured"
+            >
+              <div class="grid projects">
+                <article class="card reveal">
+                  <div class="card-top">
+                    <span class="tag best">Featured</span>
+                    <span class="tag">Quantum + ML</span>
+                  </div>
+                  <h3>QuTech / QIG Hackathon 2026</h3>
+                  <p>
+                    Hybrid option pricing pipeline with temporal feature
+                    engineering, photonic quantum circuit (MerLin), and a
+                    config-driven experiment runner.
+                  </p>
+                  <ul class="card-list">
+                    <li>Stack: Python, PyTorch, MerLin, FastAPI, AWS, Docker</li>
+                    <li>Focus: applied research and reproducibility</li>
+                  </ul>
+                  <div class="card-actions">
+                    <a class="btn ghost" href="#">Repository</a>
+                  </div>
+                </article>
+
+                <article class="card reveal">
+                  <div class="card-top">
+                    <span class="tag best">Featured</span>
+                    <span class="tag">Data Pipeline</span>
+                  </div>
+                  <h3>B3 Aviation Data Pipeline</h3>
+                  <p>
+                    Event-driven cloud pipeline: daily ingestion, partitioned
+                    Parquet on S3, Glue and Athena. FastAPI interface with
+                    observability logs.
+                  </p>
+                  <ul class="card-list">
+                    <li>
+                      Stack: Python, FastAPI, AWS S3/Lambda/Glue/Athena, Docker
+                    </li>
+                    <li>Focus: reliable, timely data delivery</li>
+                  </ul>
+                  <div class="card-actions">
+                    <a class="btn ghost" href="#">Repository</a>
+                  </div>
+                </article>
+
+                <article class="card reveal">
+                  <div class="card-top">
+                    <span class="tag best">Featured</span>
+                    <span class="tag">AI Platform</span>
+                  </div>
+                  <h3>FIPE AI-Powered Vehicle Platform</h3>
+                  <p>
+                    Production Flask app integrating the FIPE catalog with
+                    Gemini for AI-assisted search. RBAC, scheduled ingestion,
+                    and full test suite.
+                  </p>
+                  <ul class="card-list">
+                    <li>Stack: Python, Flask, PostgreSQL, Gemini API</li>
+                    <li>Focus: AI-driven product experience</li>
+                  </ul>
+                  <div class="card-actions">
+                    <a class="btn ghost" href="#">Repository</a>
+                  </div>
+                </article>
+
+                <article class="card reveal">
+                  <div class="card-top">
+                    <span class="tag best">Featured</span>
+                    <span class="tag">Audio AI</span>
+                  </div>
+                  <h3>AI Audio Dubbing Pipeline</h3>
+                  <p>
+                    End-to-end TTS pipeline delivering 20%+ inference latency
+                    reductions per release and shipping 20k+ voice lines in
+                    multiple languages.
+                  </p>
+                  <ul class="card-list">
+                    <li>Stack: Python, PyTorch, Coqui TTS, GCP</li>
+                    <li>Focus: performance and scalability</li>
+                  </ul>
+                  <div class="card-actions">
+                    <a class="btn ghost" href="#">Repository</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div
+              id="tab-fiap"
+              class="tab-panel"
+              role="tabpanel"
+              aria-labelledby="tab-btn-fiap"
+            >
+              <div class="fiap-spotlight reveal">
+                <div class="fiap-top">
+                  <span class="tag fiap">FIAP Spotlight</span>
+                  <span class="tag">Reserved space</span>
+                </div>
+                <h3>FIAP Projects</h3>
+                <p>
+                  Dedicated showcase for your three FIAP projects. This space
+                  highlights academic depth and hands-on delivery.
+                </p>
+                <div class="fiap-meta">
+                  <div>
+                    <span class="fiap-value">3</span>
+                    <span class="fiap-label">Projects curated</span>
+                  </div>
+                  <div>
+                    <span class="fiap-value">FIAP</span>
+                    <span class="fiap-label">Academic track</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid projects">
+                <article class="card reveal">
+                  <div class="card-top">
+                    <span class="tag fiap">FIAP</span>
+                    <span class="tag">API + Data</span>
+                  </div>
+                  <h3>Challanger API (BooksToScrape)</h3>
+                  <p>
+                    RESTful API exposing BooksToScrape data with JWT auth,
+                    search, analytics endpoints, and a scraping pipeline to
+                    deliver ML-ready datasets.
+                  </p>
+                  <ul class="card-list">
+                    <li>
+                      Stack: Python, Flask, Flask-JWT-Extended, SQLite,
+                      SQLAlchemy, Werkzeug
+                    </li>
+                    <li>Focus: secure API design, data ingestion, ML features</li>
+                  </ul>
+                  <div class="card-actions">
+                    <a
+                      class="btn ghost"
+                      href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Repository
+                    </a>
+                  </div>
+                </article>
+
+                <article class="card reveal">
+                  <div class="card-top">
+                    <span class="tag fiap">FIAP</span>
+                    <span class="tag">Data Pipeline</span>
+                  </div>
+                  <h3>B3 Data Platform</h3>
+                  <p>
+                    Event-driven pipeline for B3 market data: daily ingestion
+                    via yfinance, Parquet in S3, Lambda-triggered Glue, and an
+                    Athena query layer with a FastAPI control API.
+                  </p>
+                  <ul class="card-list">
+                    <li>
+                      Stack: Python, FastAPI, AWS S3/Lambda/Glue/Athena, Parquet,
+                      yfinance
+                    </li>
+                    <li>Focus: reliability, idempotent partitions, low cost</li>
+                  </ul>
+                  <div class="card-actions">
+                    <a
+                      class="btn ghost"
+                      href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-2"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Repository
+                    </a>
+                  </div>
+                </article>
+
+                <article class="card reveal">
+                  <div class="card-top">
+                    <span class="tag fiap">FIAP</span>
+                    <span class="tag">ML Product</span>
+                  </div>
+                  <h3>Flight Advisor</h3>
+                  <p>
+                    ML product that predicts flight delays with SHAP
+                    explainability, clustering and anomaly detection, plus RAG
+                    (Qwen 3) for natural-language recommendations via API and
+                    dashboard.
+                  </p>
+                  <ul class="card-list">
+                    <li>
+                      Stack: Python, Scikit-learn, XGBoost, SHAP, LangChain,
+                      FAISS, Qwen 3, FastAPI, Dash, Plotly
+                    </li>
+                    <li>
+                      Focus: end-to-end ML productization with explainability
+                      and RAG
+                    </li>
+                  </ul>
+                  <div class="card-actions">
+                    <a
+                      class="btn ghost"
+                      href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-3"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Repository
+                    </a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container impact">
+          <div class="impact-card reveal">
+            <h3>Proven impact</h3>
+            <p>
+              Metrics that translate to real-world outcomes: latency reduction,
+              reliable data delivery, and production-grade systems.
+            </p>
+            <div class="impact-grid">
+              <div>
+                <span class="impact-value">20%+</span>
+                <span class="impact-label">TTS latency reduction</span>
+              </div>
+              <div>
+                <span class="impact-value">20k+</span>
+                <span class="impact-label">Voice lines shipped</span>
+              </div>
+              <div>
+                <span class="impact-value">AWS / GCP</span>
+                <span class="impact-label">Cloud-native pipelines</span>
+              </div>
+            </div>
+          </div>
+          <div class="impact-card outline reveal">
+            <h3>How I work</h3>
+            <ul>
+              <li>Modularity and reproducibility first</li>
+              <li>Clear trade-offs across cost, latency, and quality</li>
+              <li>Observability from day one</li>
+              <li>Incremental delivery with user focus</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="stack" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Stack and tools</h2>
+            <p>Tooling used to deliver reliable AI systems.</p>
+          </div>
+          <div class="grid stack">
+            <div class="card reveal">
+              <h3>AI & ML</h3>
+              <p>PyTorch, TensorFlow, YOLOv8, Coqui TTS, TensorRT, ONNX</p>
+            </div>
+            <div class="card reveal">
+              <h3>Cloud & Data</h3>
+              <p>AWS (S3, Lambda, Glue, Athena), GCP, Docker, Parquet</p>
+            </div>
+            <div class="card reveal">
+              <h3>Backend & MLOps</h3>
+              <p>FastAPI, Flask, REST, CI/CD, structured observability</p>
+            </div>
+            <div class="card reveal">
+              <h3>Agentic AI</h3>
+              <p>OpenAI API, Gemini API, orchestration, and RAG pipelines</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Certifications</h2>
+            <p>
+              Market-recognized credentials for ML engineering, plus my current
+              roadmap and earned certifications.
+            </p>
+          </div>
+          <div class="grid certs">
+            <article class="card reveal">
+              <h3>Key in the field</h3>
+              <ul class="card-list">
+                <li>AWS Certified Machine Learning Engineer – Associate</li>
+                <li>Microsoft Certified: Azure AI Engineer Associate (AI-102)</li>
+                <li>Google Professional Machine Learning Engineer</li>
+                <li>AWS Certified Machine Learning – Specialty (retiring March 31, 2026)</li>
+              </ul>
+            </article>
+
+            <article class="card reveal">
+              <h3>Planned / To acquire</h3>
+              <ul class="card-list">
+                <li>AWS Certified Machine Learning Engineer – Associate</li>
+                <li>Microsoft Certified: Azure AI Engineer Associate (AI-102)</li>
+                <li>Google Professional Machine Learning Engineer</li>
+              </ul>
+            </article>
+
+            <article class="card reveal">
+              <h3>Earned</h3>
+              <ul class="card-list">
+                <li>English Proficiency Certificate — B2</li>
+                <li>Alura certificates (selected coursework)</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact">
+          <div>
+            <h2>Let's connect</h2>
+            <p>
+              If you want to accelerate AI in production, discuss projects, or
+              explore partnerships, I am open to new connections.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn primary" href="mailto:guilhermelossio@gmail.com">
+              Email
+            </a>
+            <a
+              class="btn ghost"
+              href="https://www.linkedin.com/in/guilherme-lossio"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              class="btn ghost"
+              href="https://github.com/GuilhermeLossio"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Guilherme Lossio | Senior ML Engineer</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
