@@ -3,510 +3,637 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Guilherme Lossio | Portfolio</title>
+    <title>Guilherme Lossio | Machine Learning Codex</title>
     <meta
       name="description"
-      content="Portfolio of Guilherme Lossio, Senior ML Engineer focused on production AI systems, MLOps, and cloud infrastructure."
+      content="Portfolio of Guilherme Lossio, Senior ML Engineer focused on production AI systems, MLOps, cloud infrastructure, and reliable AI architecture."
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&family=IM+Fell+English:ital@0;1&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="bg"></div>
-    <header class="site-header">
-      <div class="container nav">
-        <div class="logo">GL</div>
-        <nav class="nav-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#stack">Stack</a>
-          <a href="#certifications">Certifications</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a class="btn ghost" href="#contact">Let's talk</a>
-      </div>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Senior ML Engineer | AI Systems</p>
-            <h1>
-              Building production-grade AI with clean architecture,
-              observability, and real-world impact.
-            </h1>
-            <p class="lead">
-              7+ years in software engineering, 4+ years in production AI.
-              Experience across audio and CV pipelines, MLOps, cloud-native
-              systems, Edge AI, and robust APIs.
-            </p>
-            <div class="hero-cta">
-              <a class="btn primary" href="#projects">View projects</a>
-              <a class="btn ghost" href="#stack">View stack</a>
-            </div>
-            <div class="stat-row">
-              <div class="stat">
-                <span class="stat-value">20%+</span>
-                <span class="stat-label">Latency reduction</span>
-              </div>
-              <div class="stat">
-                <span class="stat-value">20k+</span>
-                <span class="stat-label">Voice lines shipped</span>
-              </div>
-              <div class="stat">
-                <span class="stat-value">AWS + GCP</span>
-                <span class="stat-label">Cloud infrastructure</span>
-              </div>
-            </div>
-          </div>
-          <div class="hero-panel">
-            <div class="panel-card">
-              <h3>Current focus</h3>
-              <ul>
-                <li>Agentic AI and RAG pipelines with OpenAI and Gemini</li>
-                <li>Cloud infrastructure for ML at scale</li>
-                <li>Hybrid quantum-classical architectures</li>
-              </ul>
-            </div>
-            <div class="panel-card glass">
-              <h3>Differentiators</h3>
-              <ul>
-                <li>End-to-end AI pipelines in production</li>
-                <li>Optimized for latency, cost, and reliability</li>
-                <li>Observability and reproducibility by design</li>
-              </ul>
-            </div>
-          </div>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav">
+          <a class="sigil" href="#top" aria-label="Guilherme Lossio home">
+            GL
+          </a>
+          <nav class="nav-links" aria-label="Primary navigation">
+            <a href="#about">Chronicle</a>
+            <a href="#projects">Works</a>
+            <a href="#stack">Guilds</a>
+            <a href="#certifications">Seals</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <a class="btn compact" href="#contact">Send word</a>
         </div>
-      </section>
+      </header>
 
-      <section id="about" class="section">
-        <div class="container two-col">
-          <div>
-            <h2>About</h2>
-            <p>
-              Specialist in turning research into production-ready AI systems.
-              Hands-on experience with TTS, computer vision, data pipelines, and
-              backend services, with a focus on clean engineering and measurable
-              results.
-            </p>
-          </div>
-          <div class="highlight-card">
-            <h3>What I deliver</h3>
-            <div class="chips">
-              <span>ML architecture</span>
-              <span>Observability</span>
-              <span>MLOps</span>
-              <span>Cloud-native</span>
-              <span>Edge AI</span>
-              <span>APIs</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      <main id="top" class="codex">
+        <span class="corner corner-tl" aria-hidden="true"></span>
+        <span class="corner corner-tr" aria-hidden="true"></span>
+        <span class="corner corner-bl" aria-hidden="true"></span>
+        <span class="corner corner-br" aria-hidden="true"></span>
 
-      <section id="projects" class="section">
-        <div class="container">
-          <div class="section-head">
-            <h2>Project highlights</h2>
-            <p>
-              Curated selection of projects that showcase impact, architecture,
-              and outcomes.
-            </p>
-          </div>
-
-          <div class="tabs" role="tablist" aria-label="Project categories">
-            <button
-              class="tab-btn active"
-              type="button"
-              id="tab-btn-featured"
-              role="tab"
-              aria-selected="true"
-              aria-controls="tab-featured"
-              data-tab="featured"
-            >
-              Featured
-            </button>
-            <button
-              class="tab-btn"
-              type="button"
-              id="tab-btn-fiap"
-              role="tab"
-              aria-selected="false"
-              aria-controls="tab-fiap"
-              data-tab="fiap"
-            >
-              FIAP Projects
-            </button>
-          </div>
-
-          <div class="tab-panels">
-            <div
-              id="tab-featured"
-              class="tab-panel active"
-              role="tabpanel"
-              aria-labelledby="tab-btn-featured"
-            >
-              <div class="grid projects">
-                <article class="card reveal">
-                  <div class="card-top">
-                    <span class="tag best">Featured</span>
-                    <span class="tag">Quantum + ML</span>
-                  </div>
-                  <h3>QuTech / QIG Hackathon 2026</h3>
-                  <p>
-                    Hybrid option pricing pipeline with temporal feature
-                    engineering, photonic quantum circuit (MerLin), and a
-                    config-driven experiment runner.
-                  </p>
-                  <ul class="card-list">
-                    <li>Stack: Python, PyTorch, MerLin, FastAPI, AWS, Docker</li>
-                    <li>Focus: applied research and reproducibility</li>
-                  </ul>
-                  <div class="card-actions">
-                    <a class="btn ghost" href="#">Repository</a>
-                  </div>
-                </article>
-
-                <article class="card reveal">
-                  <div class="card-top">
-                    <span class="tag best">Featured</span>
-                    <span class="tag">Data Pipeline</span>
-                  </div>
-                  <h3>B3 Aviation Data Pipeline</h3>
-                  <p>
-                    Event-driven cloud pipeline: daily ingestion, partitioned
-                    Parquet on S3, Glue and Athena. FastAPI interface with
-                    observability logs.
-                  </p>
-                  <ul class="card-list">
-                    <li>
-                      Stack: Python, FastAPI, AWS S3/Lambda/Glue/Athena, Docker
-                    </li>
-                    <li>Focus: reliable, timely data delivery</li>
-                  </ul>
-                  <div class="card-actions">
-                    <a class="btn ghost" href="#">Repository</a>
-                  </div>
-                </article>
-
-                <article class="card reveal">
-                  <div class="card-top">
-                    <span class="tag best">Featured</span>
-                    <span class="tag">AI Platform</span>
-                  </div>
-                  <h3>FIPE AI-Powered Vehicle Platform</h3>
-                  <p>
-                    Production Flask app integrating the FIPE catalog with
-                    Gemini for AI-assisted search. RBAC, scheduled ingestion,
-                    and full test suite.
-                  </p>
-                  <ul class="card-list">
-                    <li>Stack: Python, Flask, PostgreSQL, Gemini API</li>
-                    <li>Focus: AI-driven product experience</li>
-                  </ul>
-                  <div class="card-actions">
-                    <a class="btn ghost" href="#">Repository</a>
-                  </div>
-                </article>
-
-                <article class="card reveal">
-                  <div class="card-top">
-                    <span class="tag best">Featured</span>
-                    <span class="tag">Audio AI</span>
-                  </div>
-                  <h3>AI Audio Dubbing Pipeline</h3>
-                  <p>
-                    End-to-end TTS pipeline delivering 20%+ inference latency
-                    reductions per release and shipping 20k+ voice lines in
-                    multiple languages.
-                  </p>
-                  <ul class="card-list">
-                    <li>Stack: Python, PyTorch, Coqui TTS, GCP</li>
-                    <li>Focus: performance and scalability</li>
-                  </ul>
-                  <div class="card-actions">
-                    <a class="btn ghost" href="#">Repository</a>
-                  </div>
-                </article>
+        <section class="hero manuscript-section">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Codex Artificialis &middot; Anno MMXXVI</p>
+              <h1>Guilherme <span>Lossio</span></h1>
+              <p class="subtitle">
+                Senior ML Engineer building production AI systems with clean
+                architecture, observability, and real-world impact.
+              </p>
+              <p class="lead">
+                Seven years in software engineering and four years focused on
+                production AI: audio pipelines, computer vision, MLOps,
+                cloud-native systems, Edge AI, robust APIs, and applied
+                quantum-classical experiments.
+              </p>
+              <div class="hero-cta">
+                <a class="btn primary" href="#projects">View works</a>
+                <a class="btn" href="#stack">Inspect guilds</a>
               </div>
             </div>
 
-            <div
-              id="tab-fiap"
-              class="tab-panel"
-              role="tabpanel"
-              aria-labelledby="tab-btn-fiap"
-            >
-              <div class="fiap-spotlight reveal">
-                <div class="fiap-top">
-                  <span class="tag fiap">FIAP Spotlight</span>
-                  <span class="tag">Reserved space</span>
-                </div>
-                <h3>FIAP Projects</h3>
+            <aside class="hero-register" aria-label="Professional pillars">
+              <div class="register-card reveal">
+                <span class="pillar-mark">I</span>
+                <h3>Production AI</h3>
+                <p>Audio, computer vision, RAG, and model-serving workflows.</p>
+              </div>
+              <div class="register-card reveal">
+                <span class="pillar-mark">II</span>
+                <h3>Cloud Systems</h3>
+                <p>AWS, GCP, Docker, FastAPI, and data pipelines built for operation.</p>
+              </div>
+              <div class="register-card reveal">
+                <span class="pillar-mark">III</span>
+                <h3>Applied Research</h3>
+                <p>Quantum ML, reproducible experiments, and pragmatic architecture.</p>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="about" class="manuscript-section">
+          <div class="container">
+            <div class="rubric">De Arte et Ingenio</div>
+            <div class="illuminated-copy reveal">
+              <span class="drop-cap" aria-hidden="true">H</span>
+              <p>
+                Here begins the chronicle of an engineer who turns research
+                into production systems. The craft is practical: define the
+                architecture, harden the data path, measure latency and cost,
+                ship the model, and keep the system observable after release.
+              </p>
+            </div>
+
+            <div class="principles">
+              <article class="principle-card reveal">
+                <span class="principle-mark">I</span>
+                <h3>The Keep</h3>
                 <p>
-                  Dedicated showcase for your three FIAP projects. This space
-                  highlights academic depth and hands-on delivery.
+                  Clean boundaries around domain logic, infrastructure, and
+                  delivery APIs.
                 </p>
-                <div class="fiap-meta">
-                  <div>
-                    <span class="fiap-value">3</span>
-                    <span class="fiap-label">Projects curated</span>
-                  </div>
-                  <div>
-                    <span class="fiap-value">FIAP</span>
-                    <span class="fiap-label">Academic track</span>
-                  </div>
-                </div>
-              </div>
+              </article>
+              <article class="principle-card reveal">
+                <span class="principle-mark">II</span>
+                <h3>The Gate</h3>
+                <p>
+                  Promotion policies, test suites, and metrics before anything
+                  reaches production.
+                </p>
+              </article>
+              <article class="principle-card reveal">
+                <span class="principle-mark">III</span>
+                <h3>The Chronicle</h3>
+                <p>
+                  Reproducible experiments, clear trade-offs, and decisions
+                  documented for future maintainers.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
 
-              <div class="grid projects">
-                <article class="card reveal">
-                  <div class="card-top">
-                    <span class="tag fiap">FIAP</span>
-                    <span class="tag">API + Data</span>
-                  </div>
-                  <h3>Challanger API (BooksToScrape)</h3>
-                  <p>
-                    RESTful API exposing BooksToScrape data with JWT auth,
-                    search, analytics endpoints, and a scraping pipeline to
-                    deliver ML-ready datasets.
-                  </p>
-                  <ul class="card-list">
-                    <li>
-                      Stack: Python, Flask, Flask-JWT-Extended, SQLite,
-                      SQLAlchemy, Werkzeug
-                    </li>
-                    <li>Focus: secure API design, data ingestion, ML features</li>
-                  </ul>
-                  <div class="card-actions">
+        <section id="projects" class="manuscript-section">
+          <div class="container">
+            <div class="section-head">
+              <div>
+                <div class="rubric">De Operibus Magnificis</div>
+                <p>
+                  Selected work showing applied research, production AI,
+                  cloud-native data systems, and end-to-end product delivery.
+                </p>
+              </div>
+            </div>
+
+            <div class="tabs" role="tablist" aria-label="Project categories">
+              <button
+                class="tab-btn active"
+                type="button"
+                id="tab-btn-featured"
+                role="tab"
+                aria-selected="true"
+                aria-controls="tab-featured"
+                data-tab="featured"
+              >
+                Featured works
+              </button>
+              <button
+                class="tab-btn"
+                type="button"
+                id="tab-btn-fiap"
+                role="tab"
+                aria-selected="false"
+                aria-controls="tab-fiap"
+                data-tab="fiap"
+              >
+                FIAP codex
+              </button>
+            </div>
+
+            <div class="tab-panels">
+              <div
+                id="tab-featured"
+                class="tab-panel active"
+                role="tabpanel"
+                aria-labelledby="tab-btn-featured"
+              >
+                <div class="opus-list">
+                  <article class="opus reveal">
+                    <div class="opus-header">
+                      <span class="opus-numeral">I</span>
+                      <div>
+                        <h3>Hybrid Classical-Quantum Stock Forecasting</h3>
+                        <p>LSTM + Qiskit forecasting pipeline</p>
+                      </div>
+                      <span class="tag best">Quantum + ML</span>
+                    </div>
+                    <p>
+                      Production-grade forecasting pipeline for semiconductor
+                      equities, serving classical LSTM forecasts alongside
+                      offline IBM Quantum experiments through FastAPI.
+                    </p>
+                    <p class="stack-line">
+                      Python &middot; TensorFlow/Keras &middot; Qiskit &middot; FastAPI &middot; AWS &middot; Parquet
+                    </p>
                     <a
-                      class="btn ghost"
-                      href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-1"
+                      class="text-link"
+                      href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-4"
                       target="_blank"
                       rel="noreferrer"
                     >
                       Repository
                     </a>
-                  </div>
-                </article>
+                  </article>
 
-                <article class="card reveal">
-                  <div class="card-top">
-                    <span class="tag fiap">FIAP</span>
-                    <span class="tag">Data Pipeline</span>
-                  </div>
-                  <h3>B3 Data Platform</h3>
-                  <p>
-                    Event-driven pipeline for B3 market data: daily ingestion
-                    via yfinance, Parquet in S3, Lambda-triggered Glue, and an
-                    Athena query layer with a FastAPI control API.
-                  </p>
-                  <ul class="card-list">
-                    <li>
-                      Stack: Python, FastAPI, AWS S3/Lambda/Glue/Athena, Parquet,
-                      yfinance
-                    </li>
-                    <li>Focus: reliability, idempotent partitions, low cost</li>
-                  </ul>
-                  <div class="card-actions">
+                  <article class="opus reveal">
+                    <div class="opus-header">
+                      <span class="opus-numeral">II</span>
+                      <div>
+                        <h3>B3 Aviation Data Pipeline</h3>
+                        <p>Event-driven cloud data platform</p>
+                      </div>
+                      <span class="tag">Data Pipeline</span>
+                    </div>
+                    <p>
+                      Daily ingestion, partitioned Parquet on S3, Glue and
+                      Athena query layer, and FastAPI control interface with
+                      operational logging.
+                    </p>
+                    <p class="stack-line">
+                      Python &middot; FastAPI &middot; AWS S3/Lambda/Glue/Athena &middot; Docker
+                    </p>
                     <a
-                      class="btn ghost"
+                      class="text-link"
                       href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-2"
                       target="_blank"
                       rel="noreferrer"
                     >
                       Repository
                     </a>
-                  </div>
-                </article>
+                  </article>
 
-                <article class="card reveal">
-                  <div class="card-top">
-                    <span class="tag fiap">FIAP</span>
-                    <span class="tag">ML Product</span>
-                  </div>
-                  <h3>Flight Advisor</h3>
-                  <p>
-                    ML product that predicts flight delays with SHAP
-                    explainability, clustering and anomaly detection, plus RAG
-                    (Qwen 3) for natural-language recommendations via API and
-                    dashboard.
-                  </p>
-                  <ul class="card-list">
-                    <li>
-                      Stack: Python, Scikit-learn, XGBoost, SHAP, LangChain,
-                      FAISS, Qwen 3, FastAPI, Dash, Plotly
-                    </li>
-                    <li>
-                      Focus: end-to-end ML productization with explainability
-                      and RAG
-                    </li>
-                  </ul>
-                  <div class="card-actions">
+                  <article class="opus reveal">
+                    <div class="opus-header">
+                      <span class="opus-numeral">III</span>
+                      <div>
+                        <h3>FIPE AI-Powered Vehicle Platform</h3>
+                        <p>AI-assisted vehicle search</p>
+                      </div>
+                      <span class="tag">AI Platform</span>
+                    </div>
+                    <p>
+                      Production Flask app integrating the FIPE catalog with
+                      Gemini for AI-assisted search, RBAC, scheduled ingestion,
+                      and a full test suite.
+                    </p>
+                    <p class="stack-line">
+                      Python &middot; Flask &middot; PostgreSQL &middot; Gemini API
+                    </p>
                     <a
-                      class="btn ghost"
+                      class="text-link"
+                      href="https://github.com/GuilhermeLossio/FIPE-Table-Site"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Repository
+                    </a>
+                  </article>
+
+                  <article class="opus reveal">
+                    <div class="opus-header">
+                      <span class="opus-numeral">IV</span>
+                      <div>
+                        <h3>Flight Advisor</h3>
+                        <p>ML flight delay advisor with conversational UX</p>
+                      </div>
+                      <span class="tag best">ML Product</span>
+                    </div>
+                    <p>
+                      Full-stack Flask application with delay prediction,
+                      route-level estimates, live flight data, and a
+                      session-aware advisor backed by a configurable LLM layer.
+                    </p>
+                    <p class="stack-line">
+                      Python &middot; Flask &middot; ML models &middot; OpenSky &middot; Hugging Face &middot; Dash
+                    </p>
+                    <a
+                      class="text-link"
                       href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-3"
                       target="_blank"
                       rel="noreferrer"
                     >
                       Repository
                     </a>
+                  </article>
+                </div>
+              </div>
+
+              <div
+                id="tab-fiap"
+                class="tab-panel"
+                role="tabpanel"
+                aria-labelledby="tab-btn-fiap"
+              >
+                <div class="fiap-spotlight reveal">
+                  <div>
+                    <span class="tag fiap">FIAP Spotlight</span>
+                    <h3>Academic work with production habits</h3>
                   </div>
-                </article>
+                  <p>
+                    Four projects reserved for the FIAP track, presented as
+                    practical systems rather than isolated coursework.
+                  </p>
+                </div>
+
+                <div class="grid projects">
+                  <article class="card reveal">
+                    <div class="card-top">
+                      <span class="tag fiap">FIAP</span>
+                      <span class="tag">API + Data</span>
+                    </div>
+                    <h3>Challenge API (BooksToScrape)</h3>
+                    <p>
+                      RESTful API exposing BooksToScrape data with JWT auth,
+                      search, analytics endpoints, and a scraping pipeline to
+                      deliver ML-ready datasets.
+                    </p>
+                    <p class="stack-line">
+                      Python &middot; Flask &middot; Flask-JWT-Extended &middot; SQLite &middot; SQLAlchemy
+                    </p>
+                    <a
+                      class="text-link"
+                      href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Repository
+                    </a>
+                  </article>
+
+                  <article class="card reveal">
+                    <div class="card-top">
+                      <span class="tag fiap">FIAP</span>
+                      <span class="tag">Data Pipeline</span>
+                    </div>
+                    <h3>B3 Data Platform</h3>
+                    <p>
+                      Event-driven market data pipeline with daily ingestion,
+                      Parquet in S3, Lambda-triggered Glue, and Athena query
+                      access through a FastAPI control API.
+                    </p>
+                    <p class="stack-line">
+                      Python &middot; FastAPI &middot; AWS &middot; Parquet &middot; yfinance
+                    </p>
+                    <a
+                      class="text-link"
+                      href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-2"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Repository
+                    </a>
+                  </article>
+
+                  <article class="card reveal">
+                    <div class="card-top">
+                      <span class="tag fiap">FIAP</span>
+                      <span class="tag">ML Product</span>
+                    </div>
+                    <h3>Flight Advisor</h3>
+                    <p>
+                      ML product that predicts flight delays with SHAP
+                      explainability, clustering, anomaly detection, and RAG
+                      recommendations via API and dashboard.
+                    </p>
+                    <p class="stack-line">
+                      Scikit-learn &middot; XGBoost &middot; SHAP &middot; LangChain &middot; FAISS &middot; Dash
+                    </p>
+                    <a
+                      class="text-link"
+                      href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-3"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Repository
+                    </a>
+                  </article>
+
+                  <article class="card reveal">
+                    <div class="card-top">
+                      <span class="tag fiap">FIAP</span>
+                      <span class="tag">Quantum + Finance</span>
+                    </div>
+                    <h3>Hybrid Stock Forecasting</h3>
+                    <p>
+                      Classical LSTM baseline and offline Qiskit experiments
+                      for semiconductor stock forecasting, served through a
+                      promotion-policy-driven FastAPI layer.
+                    </p>
+                    <p class="stack-line">
+                      Python &middot; TensorFlow &middot; Qiskit &middot; FastAPI &middot; Parquet
+                    </p>
+                    <a
+                      class="text-link"
+                      href="https://github.com/GuilhermeLossio/Tech-Challange-FIAP-4"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Repository
+                    </a>
+                  </article>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="section">
-        <div class="container impact">
-          <div class="impact-card reveal">
-            <h3>Proven impact</h3>
-            <p>
-              Metrics that translate to real-world outcomes: latency reduction,
-              reliable data delivery, and production-grade systems.
-            </p>
-            <div class="impact-grid">
-              <div>
-                <span class="impact-value">20%+</span>
-                <span class="impact-label">TTS latency reduction</span>
+        <section id="stack" class="manuscript-section">
+          <div class="container">
+            <div class="rubric">De Guildiis et Artificiis</div>
+            <div class="grid guilds">
+              <article class="guild reveal">
+                <h3>Guild of Intelligence</h3>
+                <p>PyTorch &middot; TensorFlow &middot; YOLOv8 &middot; Coqui TTS &middot; ONNX</p>
+              </article>
+              <article class="guild reveal">
+                <h3>Guild of the Cloud</h3>
+                <p>AWS S3 &middot; Lambda &middot; Glue &middot; Athena &middot; GCP &middot; Docker &middot; Parquet</p>
+              </article>
+              <article class="guild reveal">
+                <h3>Guild of Architecture</h3>
+                <p>FastAPI &middot; Flask &middot; REST &middot; CI/CD &middot; structured observability</p>
+              </article>
+              <article class="guild reveal">
+                <h3>Guild of Agents</h3>
+                <p>OpenAI API &middot; Gemini API &middot; orchestration &middot; RAG pipelines</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="certifications" class="manuscript-section">
+          <div class="container">
+            <div class="rubric">De Sigillis et Testimoniis</div>
+            <div class="credential-ledger reveal">
+              <div class="credential-ledger-copy">
+                <span class="tag best">Credly verified</span>
+                <h2>Credential Seals</h2>
+                <p>
+                  Public digital badges pulled from my Credly profile when the
+                  browser allows it. The static seals below are kept as a
+                  reliable fallback and link directly to verification pages.
+                </p>
               </div>
-              <div>
-                <span class="impact-value">20k+</span>
-                <span class="impact-label">Voice lines shipped</span>
-              </div>
-              <div>
-                <span class="impact-value">AWS / GCP</span>
-                <span class="impact-label">Cloud-native pipelines</span>
+              <div class="credential-ledger-meta">
+                <span class="credential-count" data-credly-count>4</span>
+                <span>public badges</span>
               </div>
             </div>
-          </div>
-          <div class="impact-card outline reveal">
-            <h3>How I work</h3>
-            <ul>
-              <li>Modularity and reproducibility first</li>
-              <li>Clear trade-offs across cost, latency, and quality</li>
-              <li>Observability from day one</li>
-              <li>Incremental delivery with user focus</li>
-            </ul>
-          </div>
-        </div>
-      </section>
 
-      <section id="stack" class="section">
-        <div class="container">
-          <div class="section-head">
-            <h2>Stack and tools</h2>
-            <p>Tooling used to deliver reliable AI systems.</p>
-          </div>
-          <div class="grid stack">
-            <div class="card reveal">
-              <h3>AI & ML</h3>
-              <p>PyTorch, TensorFlow, YOLOv8, Coqui TTS, TensorRT, ONNX</p>
-            </div>
-            <div class="card reveal">
-              <h3>Cloud & Data</h3>
-              <p>AWS (S3, Lambda, Glue, Athena), GCP, Docker, Parquet</p>
-            </div>
-            <div class="card reveal">
-              <h3>Backend & MLOps</h3>
-              <p>FastAPI, Flask, REST, CI/CD, structured observability</p>
-            </div>
-            <div class="card reveal">
-              <h3>Agentic AI</h3>
-              <p>OpenAI API, Gemini API, orchestration, and RAG pipelines</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="certifications" class="section">
-        <div class="container">
-          <div class="section-head">
-            <h2>Certifications</h2>
-            <p>
-              Market-recognized credentials for ML engineering, plus my current
-              roadmap and earned certifications.
-            </p>
-          </div>
-          <div class="grid certs">
-            <article class="card reveal">
-              <h3>Key in the field</h3>
-              <ul class="card-list">
-                <li>AWS Certified Machine Learning Engineer – Associate</li>
-                <li>Microsoft Certified: Azure AI Engineer Associate (AI-102)</li>
-                <li>Google Professional Machine Learning Engineer</li>
-                <li>AWS Certified Machine Learning – Specialty (retiring March 31, 2026)</li>
-              </ul>
-            </article>
-
-            <article class="card reveal">
-              <h3>Planned / To acquire</h3>
-              <ul class="card-list">
-                <li>AWS Certified Machine Learning Engineer – Associate</li>
-                <li>Microsoft Certified: Azure AI Engineer Associate (AI-102)</li>
-                <li>Google Professional Machine Learning Engineer</li>
-              </ul>
-            </article>
-
-            <article class="card reveal">
-              <h3>Earned</h3>
-              <ul class="card-list">
-                <li>English Proficiency Certificate — B2</li>
-                <li>Alura certificates (selected coursework)</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="section">
-        <div class="container contact">
-          <div>
-            <h2>Let's connect</h2>
-            <p>
-              If you want to accelerate AI in production, discuss projects, or
-              explore partnerships, I am open to new connections.
-            </p>
-          </div>
-          <div class="contact-actions">
-            <a class="btn primary" href="mailto:guilhermelossio@gmail.com">
-              Email
-            </a>
-            <a
-              class="btn ghost"
-              href="https://www.linkedin.com/in/guilherme-lossio"
-              target="_blank"
-              rel="noreferrer"
+            <div
+              class="grid badges"
+              data-credly-badges
+              data-credly-profile="https://www.credly.com/users/guilherme-lossio"
+              data-credly-endpoint="https://www.credly.com/users/guilherme-lossio/badges.json"
             >
-              LinkedIn
-            </a>
-            <a
-              class="btn ghost"
-              href="https://github.com/GuilhermeLossio"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
+              <article class="badge-card reveal">
+                <a
+                  class="badge-image-link"
+                  href="https://www.credly.com/badges/b8350cf1-dbb6-4686-9d27-0504daee3983"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Verify Quantum Machine Learning on Credly"
+                >
+                  <img
+                    src="https://images.credly.com/images/6474ba18-3b83-4a34-878d-158e5869a20d/Quantum_20Machine_20Learning.png"
+                    alt="Quantum Machine Learning badge"
+                    loading="lazy"
+                  />
+                </a>
+                <div>
+                  <span class="tag">IBM</span>
+                  <h3>Quantum Machine Learning</h3>
+                  <p>Issued May 7, 2026</p>
+                  <a
+                    class="text-link"
+                    href="https://www.credly.com/badges/b8350cf1-dbb6-4686-9d27-0504daee3983"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Verify credential
+                  </a>
+                </div>
+              </article>
 
-    <footer class="site-footer">
-      <div class="container">
-        <p>Guilherme Lossio | Senior ML Engineer</p>
-      </div>
-    </footer>
+              <article class="badge-card reveal">
+                <a
+                  class="badge-image-link"
+                  href="https://www.credly.com/badges/8a8bc444-93a7-483a-9528-c30b256579fb"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Verify Prompt Design in Vertex AI Skill Badge on Credly"
+                >
+                  <img
+                    src="https://images.credly.com/images/cef82b2e-970a-4318-8e59-c3e26b7f5c19/image.png"
+                    alt="Prompt Design in Vertex AI Skill Badge"
+                    loading="lazy"
+                  />
+                </a>
+                <div>
+                  <span class="tag">Google Cloud</span>
+                  <h3>Prompt Design in Vertex AI Skill Badge</h3>
+                  <p>Issued Nov 5, 2025</p>
+                  <a
+                    class="text-link"
+                    href="https://www.credly.com/badges/8a8bc444-93a7-483a-9528-c30b256579fb"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Verify credential
+                  </a>
+                </div>
+              </article>
+
+              <article class="badge-card reveal">
+                <a
+                  class="badge-image-link"
+                  href="https://www.credly.com/badges/b6032587-a9df-4179-8529-6374930d2586"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Verify Unity Creative Core on Credly"
+                >
+                  <img
+                    src="https://images.credly.com/images/cf7f5efa-aedb-4bf7-805c-7286db8a265b/blob"
+                    alt="Unity Creative Core badge"
+                    loading="lazy"
+                  />
+                </a>
+                <div>
+                  <span class="tag">Unity Technologies</span>
+                  <h3>Unity Creative Core</h3>
+                  <p>Issued Sep 9, 2024</p>
+                  <a
+                    class="text-link"
+                    href="https://www.credly.com/badges/b6032587-a9df-4179-8529-6374930d2586"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Verify credential
+                  </a>
+                </div>
+              </article>
+
+              <article class="badge-card reveal">
+                <a
+                  class="badge-image-link"
+                  href="https://www.credly.com/badges/a8e038e5-ef95-44ff-8814-5ce43bc624c8"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Verify Unity Junior Programmer on Credly"
+                >
+                  <img
+                    src="https://images.credly.com/images/a7bea4b9-3704-4905-8681-aeaf64efd2f1/blob"
+                    alt="Unity Junior Programmer badge"
+                    loading="lazy"
+                  />
+                </a>
+                <div>
+                  <span class="tag">Unity Technologies</span>
+                  <h3>Unity Junior Programmer</h3>
+                  <p>Issued Oct 12, 2022</p>
+                  <a
+                    class="text-link"
+                    href="https://www.credly.com/badges/a8e038e5-ef95-44ff-8814-5ce43bc624c8"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Verify credential
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <div class="credential-actions">
+              <a
+                class="btn"
+                href="https://www.credly.com/users/guilherme-lossio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View full Credly profile
+              </a>
+            </div>
+
+            <div class="grid certs">
+              <article class="card reveal">
+                <h3>Additional credentials</h3>
+                <ul class="card-list">
+                  <li>English Proficiency Certificate - B2</li>
+                  <li>Alura certificates, selected coursework</li>
+                </ul>
+              </article>
+              <article class="card reveal">
+                <h3>Verification standard</h3>
+                <ul class="card-list">
+                  <li>Verified badges are shown through Credly links.</li>
+                  <li>Non-Credly coursework stays separate from verified badges.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="manuscript-section contact-section">
+          <div class="container contact">
+            <div>
+              <div class="rubric">Colophon</div>
+              <h2>Open to production AI work, partnerships, and technical exchange.</h2>
+              <p>
+                Composed by Guilherme Lossio, Machine Learning Engineer,
+                Sao Paulo, Brazil.
+              </p>
+            </div>
+            <div class="contact-actions">
+              <a class="btn primary" href="mailto:guilhermelossio@gmail.com">
+                Email
+              </a>
+              <a
+                class="btn"
+                href="https://www.linkedin.com/in/guilherme-lossio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+              <a
+                class="btn"
+                href="https://github.com/GuilhermeLossio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container">
+          <p>Guilherme Lossio | Senior ML Engineer | Finis coronat opus</p>
+        </div>
+      </footer>
+    </div>
 
     <script src="script.js"></script>
   </body>
