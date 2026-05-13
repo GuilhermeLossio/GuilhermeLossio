@@ -1,21 +1,18 @@
-<!-- HEADER -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=1200&color=00AEFF&center=true&vCenter=true&width=900&lines=👋+Hi%2C+I'm+Guilherme+Lossio;Senior+ML+Engineer+%7C+AI+Systems;Python+%26+PyTorch+%7C+MLOps+%26+Backend;Building+Production-Grade+AI+Infrastructure" />
-</h1>
-
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=00FF9F&size=20&center=true&vCenter=true&width=700&lines=Shipping+AI+Pipelines+to+Production+🚀;MLOps+%7C+Edge+AI+%7C+Cloud+Infrastructure+☁️;Agentic+AI+%26+RAG+Pipelines+🧠;20%25%2B+Latency+Reduction+%7C+20k%2B+Voice+Lines+Shipped+⚡">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=1200&color=00AEFF&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Guilherme+Lossio+👋;Senior+ML+Engineer+%7C+AI+Systems;Python+%26+PyTorch+%7C+MLOps+%26+Backend;Building+Production-Grade+AI+Infrastructure" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00AEFF,100:0066FF&height=140&section=header&text=Welcome%20to%20my%20GitHub!&fontSize=35&fontColor=ffffff&animation=twinkling" />
+  <a href="mailto:guilhermelossio@gmail.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/guilherme-lossio"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/GuilhermeLossio"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 ---
 
-## 🚀 About Me
+## About Me
 
-I'm a **Senior ML Engineer** with **7 years in software engineering**, including **4+ years specialized in production-grade AI systems**.
+**Senior ML Engineer** with 7 years in software engineering, including 4+ years specialized in production-grade AI systems.
 
 I build:
 - 🎙️ **AI pipelines** — audio synthesis, TTS, computer vision, end-to-end MLOps
@@ -24,44 +21,44 @@ I build:
 - ⚡ **Edge AI deployments** — NVIDIA Jetson, TensorRT, ONNX
 - 🔌 **Backend & APIs** — FastAPI, Flask, RESTful design, Docker
 
-💡 Focused on bridging research and production — clean architecture, observability, and real-world impact.
+> Focused on bridging research and production — clean architecture, observability, and real-world impact.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
-### 💻 Languages
+**Languages**
 <p>
   <img src="https://skillicons.dev/icons?i=python,cs,js,lua" />
 </p>
 
-### 🧠 AI & ML
+**AI & ML**
 <p>
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
 </p>
 
-> PyTorch · TensorFlow · YOLOv8 · Coqui TTS · TensorRT · ONNX · OpenAI API · Gemini API
+PyTorch · TensorFlow · YOLOv8 · Coqui TTS · TensorRT · ONNX · OpenAI API · Gemini API
 
-### ☁️ Cloud & Data Engineering
+**Cloud & Data Engineering**
 <p>
   <img src="https://skillicons.dev/icons?i=aws,gcp,docker" />
 </p>
 
-> AWS S3 · Lambda · Glue · Athena · Parquet · GCP · Docker · PostgreSQL · InfluxDB
+AWS S3 · Lambda · Glue · Athena · Parquet · GCP · Docker · PostgreSQL · InfluxDB
 
-### 🔌 Backend & MLOps
+**Backend & MLOps**
 <p>
   <img src="https://skillicons.dev/icons?i=fastapi,flask,git,github" />
 </p>
 
-> FastAPI · Flask · RESTful APIs · CI/CD · Reproducible ML Pipelines · Structured Observability
+FastAPI · Flask · RESTful APIs · CI/CD · Reproducible ML Pipelines · Structured Observability
 
 ---
 
-## 🏗️ Featured Projects
+## Featured Projects
 
 | Project | Description | Stack |
-|--------|-------------|-------|
+|---------|-------------|-------|
 | [**QuTech / QIG Hackathon 2026**](#) | Hybrid quantum-classical option pricing pipeline for financial derivatives. Temporal feature engineering, photonic quantum circuit (MerLin), config-driven experiment runner, AWS-native data ingestion. | Python · PyTorch · MerLin · FastAPI · AWS · Docker |
 | [**B3 Aviation Data Pipeline**](#) | Event-driven cloud-native pipeline: daily ingestion → partitioned Parquet on S3 → Lambda-triggered Glue → Athena-queryable layer. RESTful FastAPI interface with observability logs. | Python · FastAPI · AWS S3/Lambda/Glue/Athena · Docker |
 | [**FIPE AI-Powered Vehicle Platform**](#) | Production Flask app integrating FIPE vehicle catalog with Google Gemini for AI-assisted search. Role-based access control, scheduled ingestion, full pytest suite. | Python · Flask · PostgreSQL · Gemini API · SQLAlchemy |
@@ -69,7 +66,7 @@ I build:
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -81,25 +78,9 @@ I build:
 
 ---
 
-## 🎯 What I'm Working On
+## Currently
 
 - 🎓 Completing **MBA in ML Engineering** at FIAP (Aug 2026)
-- 📜 Preparing for **AWS Certified Machine Learning Specialty** (target: Q2 2026)
-- 📜 Preparing for **Azure AI Engineer Associate AI-102** (target: Q3 2026)
+- 📜 Preparing for **AWS Certified ML Specialty** — target Q2 2026
+- 📜 Preparing for **Azure AI Engineer Associate AI-102** — target Q3 2026
 - 🔬 Exploring **hybrid quantum-classical architectures** as a complementary research track
-
----
-
-## 🤝 Let's Connect
-
-<p align="center">
-  <a href="mailto:guilhermelossio@gmail.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/guilherme-lossio"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://github.com/GuilhermeLossio"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:00AEFF&height=120&section=footer" />
-</p>
